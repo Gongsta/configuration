@@ -1,4 +1,3 @@
-??? from here until ???END lines may have been inserted/deleted
 # configuration
 
 ## How to configure Windows like MacOS
@@ -24,6 +23,9 @@ The .vimrc configuration file can be found in this repository
             "font":
             {
                 "face": "MesloLGS NF",
+                "size": 15
+            }
+        }
 ```    
 
 
@@ -32,4 +34,3 @@ The .vimrc configuration file can be found in this repository
 1. Install TaskbarX
 2. 
 https://www.youtube.com/watch?v=uCVc-7z-toE
-???END
