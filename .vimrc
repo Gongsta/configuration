@@ -7,3 +7,10 @@ set number
 set hlsearch
 set ruler
 highlight Comment ctermfg=green
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
+inoremap {<CR> {<CR>}<ESC>O
+inoremap {;<CR> {<CR>};<ESC>O
