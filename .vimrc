@@ -1,3 +1,7 @@
+call plug#begin('~/.vim/plugged')
+Plug 'wakatime/vim-wakatime'
+call plug#end()
+
 syntax on
 filetype indent on
 set tabstop=2
