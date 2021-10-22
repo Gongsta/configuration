@@ -25,6 +25,7 @@ https://www.youtube.com/watch?v=ynL1fYncZ1E&ab_channel=ChrisTitusTech§
 4.Make sure to have installed the font
 
 -> Import the .p10k.zsh configuration file
+Set up the twilight theme learning from the GitHub repo: https://github.com/iabusida/twilight-terminal-theme
 
 The .vimrc configuration file can be found in this repository
 ```
