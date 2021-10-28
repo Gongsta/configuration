@@ -1,5 +1,7 @@
 call plug#begin('~/.vim/plugged')
 Plug 'wakatime/vim-wakatime'
+Plug 'dkarter/bullets.vim'
+Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 call plug#end()
 
 syntax on
