@@ -3,11 +3,12 @@ Plug 'wakatime/vim-wakatime'
 call plug#end()
 
 syntax on
-filetype indent on
-set tabstop=2
-set shiftwidth=2
+filetype plugin indent on
+set tabstop=4
+set shiftwidth=4
 set expandtab
-set ai
+set autoindent
+set smartindent
 set number
 set hlsearch
 set ruler
