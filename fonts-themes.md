@@ -7,13 +7,16 @@ Wish zsh (so font inside terminal), I use:
 Pycharm Default Font: AppleSystemUIFont
 
 VSCode:
+- MonaLisa (You can find it on my Notion)
 - Default (Menlo)
 - Monaco
 - Cartograph CF (Trying out)
 - Consolas
-- MonaLisa (I really want to find the font, but I don't see it..)
+- JetBrains Mono
 
 Themes:
 - Monokai
 - Monokai Night
 - One Dark Pro Darker (blueish)
+- Gruvbox theme (i think that is the one I use the most))
+- Night Owl
