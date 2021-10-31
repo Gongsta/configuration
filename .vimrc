@@ -32,7 +32,7 @@ set shiftwidth=4
 set expandtab
 set autoindent
 set smartindent
-set relativenumber
+set number relativenumber
 set hlsearch
 set ruler
 
@@ -41,6 +41,7 @@ highlight Comment ctermfg=green
 autocmd filetype c map <F9> :w <CR> :!gcc % && ./a.out <CR>
 autocmd filetype python map <F10> :w <bar> exec '!python3 '.shellescape('%')<CR>
 autocmd filetype cpp map <F11> :w <CR> :!g++ % && ./a.out <CR>
+map <F12> :w <bar> exec '!/mnt/c/Program\ Files/Processing/processing-java.exe --sketch=C:/Users/Steven/Projects/nature-of-code/'.shellescape('%:p:h:t')' --run'<CR>
 ""autocmd filetype cpp nnoremap <F4> :w <bar> exec '!g++ '.shellescape('%').' -o '.shellescape('%:r').' && ./'.shellescape('%:r')<CR>
 
 
