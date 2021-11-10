@@ -32,7 +32,7 @@ set shiftwidth=4
 set expandtab
 set autoindent
 set smartindent
-set relativenumber
+set number relativenumber
 set hlsearch
 set ruler
 
