@@ -11,6 +11,8 @@ source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-ZSH_THEME="twilight"
-export LSCOLORS="exfxcxdxbxegedabagacad"
+
 alias sshs36gong="ssh -X s36gong@linux.student.cs.uwaterloo.ca"
+alias g="git"
+alias pjava="/mnt/c/Program\ Files/Processing/processing-java.exe"
+alias piconnect="ssh pi@192.168.0.107"

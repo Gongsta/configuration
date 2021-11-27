@@ -8,8 +8,10 @@
 	email = gong.steven@hotmail.com
 
 [alias]
+    pl = pull
     st = status
     cm = commit -m
+    cam = commit -am
     ps = push
     br = branch
     df = "!git hist | peco | awk '{print $2}' | xargs -I {} git diff {}^ {}"
