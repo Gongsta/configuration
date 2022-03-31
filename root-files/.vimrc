@@ -36,11 +36,11 @@ set number relativenumber
 set hlsearch
 set ruler
 
-highlight Comment ctermfg=green
+highlight Comment ctermfg=gray
 
-autocmd filetype c map <F9> :w <CR> :!gcc % && ./a.out <CR>
-autocmd filetype python map <F10> :w <bar> exec '!python3 '.shellescape('%')<CR>
-autocmd filetype cpp map <F11> :w <CR> :!g++ % && ./a.out <CR>
+autocmd filetype c map <F9> :w <CR> :!gcc -g % && ./a.out <CR>
+autocmd filetype python map <F9> :w <bar> exec '!python3 '.shellescape('%')<CR>
+autocmd filetype cpp map <F9> :w <CR> :!g++ -std=c++11 -g % && ./a.out <CR>
 ""autocmd filetype cpp nnoremap <F4> :w <bar> exec '!g++ '.shellescape('%').' -o '.shellescape('%:r').' && ./'.shellescape('%:r')<CR>
 
 
