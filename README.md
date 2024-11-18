@@ -48,13 +48,12 @@ https://www.youtube.com/watch?v=ynL1fYncZ1E&ab_channel=ChrisTitusTech§
 -> Import the .p10k.zsh configuration file
 
 #### Terminal Themes
-I have a couple of themes that I really like. These themes are installed by going into the preferences.
-- Twilight
+I use the p10k configuration.
 
-For Mac: Set up the twilight theme learning from the GitHub repo: https://github.com/iabusida/twilight-terminal-theme
-For windows: https://windowsterminalthemes.dev/ and search up for "Twilight". You will need to edit the .json file
+- Use the Mesglo NF Regular (font size 18)
+- No antialiase text
+- Cursor white, and blink cursor
 
 # How to configure Windows like MacOS (non-coding related)
-
 1. Install TaskbarX
 2. https://www.youtube.com/watch?v=uCVc-7z-toE

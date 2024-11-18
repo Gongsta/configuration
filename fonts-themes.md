@@ -7,7 +7,7 @@ Wish zsh (so font inside terminal), I use:
 Pycharm Default Font: AppleSystemUIFont
 
 VSCode:
-- MonaLisa (You can find it on my Notion)
+- MonoLisa (You can find it on my Notion)
 - Default (Menlo)
 - Monaco
 - Cartograph CF (Trying out)
